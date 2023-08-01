@@ -237,7 +237,7 @@ public:
             } 
         }
 
-        m_board[3][3] = static_cast<Tile>(0);
+        m_board[m_size - 1][m_size - 1] = static_cast<Tile>(0);
     }
 
     //Overloads << to call printEmptyLines() so the board shows up at the bottom
